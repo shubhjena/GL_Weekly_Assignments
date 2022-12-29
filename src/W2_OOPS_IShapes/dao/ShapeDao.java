@@ -1,0 +1,15 @@
+package src.W2_OOPS_IShapes.dao;
+import src.W2_OOPS_IShapes.beans.*;
+
+public class ShapeDao {
+
+    public void getArea(Shape sh){
+        System.out.println("Area of the "+sh.getType()+" = "+sh.calculateTheArea());
+    }
+    public void getPerimeter(Shape sh){
+        System.out.println("Perimeter of the "+sh.getType()+" = "+sh.calculateThePerimeter());
+    }
+    public void displayDetails(Shape sh){
+        System.out.println(sh.toString());
+    }
+}
